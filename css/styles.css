@@ -1,5 +1,10 @@
 :root{
-  --bg:#0b1020; --card:#121832; --ink:#e9edff; --muted:#9aa4d6; --line:#1f2a51; --accent:#7aa2ff;
+  --bg:#0b1020; /* page background color */
+  --card:#121832; /* card background color */
+  --ink:#e9edff; /* main text color */
+  --muted:#9aa4d6; /* secondary text color */
+  --line:#1f2a51; /* border lines */
+  --accent:#7aa2ff; /* buttons & highlights */
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
@@ -11,6 +16,9 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(180deg, #0b1020, #0d1430);
+  padding: 20px 40px;
+  min-height: 120px;
+  position:relative;
 }
 
 .header-left {
@@ -20,7 +28,11 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
 }
 
 .logo {
-  height: 48px;  /* adjust size */
+  position: absolute;
+  left:20px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 80px;  /* adjust size */
   width: auto;
 }
 
