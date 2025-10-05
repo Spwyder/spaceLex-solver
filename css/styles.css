@@ -15,7 +15,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(180deg, #0b1020, #0d1430);
+  background: var(--card);
   padding: 20px 40px;
   min-height: 120px;
   position:relative;
@@ -56,4 +56,4 @@ h2{margin:0 0 10px;font-size:18px}
 
 .input label{color:var(--muted);font-size:13px}
 
-.input input{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#0e1430;color:var(--ink)}
+.input input{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
