@@ -3,7 +3,7 @@
   --card:#000000; /* card background color */
   --ink:#fefefe; /* main text color */
   --muted:#9aa4d6; /* secondary text color */
-  --line:#1f2a51; /* border lines */
+  --line:#656565; /* border lines */
   --accent:#656565; /* buttons & highlights */
 }
 *{box-sizing:border-box}
@@ -58,7 +58,7 @@ h2{margin:0 0 10px;font-size:18px}
 
 .input input{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#0e1430;color:var(--ink)}
 
-.btn{background:var(--accent);border:0;color:#081226;padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+.btn{background:var(--accent);border:0;color:var(--bg);padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
 
 .btn:hover{filter:brightness(1.05)}
 
@@ -68,4 +68,4 @@ h2{margin:0 0 10px;font-size:18px}
 
 .details{margin-top:10px}
 
-code{background:#0e1430;border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+code{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 6px}
