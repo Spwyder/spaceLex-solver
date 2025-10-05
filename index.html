@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Rocketry Calculators</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Rocketry Calculators</h1>
+    <p class="muted">Static HTML/CSS/JS • Hosted on GitHub Pages</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <label class="row">
+        <span>Choose calculator</span>
+        <select id="calcSelect"></select>
+      </label>
+
+      <label class="row" id="solveForRow" style="display:none;">
+        <span>Solve for</span>
+        <select id="solveFor"></select>
+      </label>
+    </section>
+
+    <section id="inputsCard" class="card">
+      <h2 id="calcTitle">Inputs</h2>
+      <div id="inputsGrid" class="grid"></div>
+      <div class="actions">
+        <button id="computeBtn" class="btn">Calculate</button>
+        <div id="msg" class="muted"></div>
+      </div>
+    </section>
+
+    <section id="resultsCard" class="card" style="display:none;">
+      <h2>Result</h2>
+      <div id="resultText" class="result"></div>
+      <details class="details">
+        <summary>See converted inputs (SI)</summary>
+        <div id="inputsSI"></div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="README.md">README</a> • Customize styles in <code>css/styles.css</code>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
