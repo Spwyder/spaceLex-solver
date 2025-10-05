@@ -1,10 +1,10 @@
 :root{
-  --bg:#0b1020; /* page background color */
-  --card:#121832; /* card background color */
-  --ink:#e9edff; /* main text color */
+  --bg:#2d2d2d; /* page background color */
+  --card:#000000; /* card background color */
+  --ink:#fefefe; /* main text color */
   --muted:#9aa4d6; /* secondary text color */
   --line:#1f2a51; /* border lines */
-  --accent:#7aa2ff; /* buttons & highlights */
+  --accent:#656565; /* buttons & highlights */
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
