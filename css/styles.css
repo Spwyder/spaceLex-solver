@@ -24,7 +24,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
 .header-left {
   display: flex;
   align-items: center;
-  gap: 100px; /* spacing between logo and title */
+  gap: 12px; /* spacing between logo and title */
 }
 
 .logo {
@@ -56,4 +56,4 @@ h2{margin:0 0 10px;font-size:18px}
 
 .input label{color:var(--muted);font-size:13px}
 
-.input input{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.input input{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#656565;color:var(--ink)}
