@@ -26,8 +26,7 @@ export const finFlutter = {
     const S      = 0.5 * (v.cr + v.ct) * v.b;
     const AR     = (v.b*v.b) / S;
     const lam    = v.ct / v.cr;
-    const c_mean = 0.5 * (v.cr + v.ct);
-    const tc3    = Math.pow(v.t / c_mean, 3);
+    const tc3    = Math.pow(v.t / v.cr, 3);
 
     // atmosphere (imperial relations)
     const h_ft = v.h / 0.3048;
