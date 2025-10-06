@@ -14,17 +14,20 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
   padding: 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: var(--card);
   padding: 20px 40px;
   min-height: 120px;
   position:relative;
+  padding-left: 120px;
 }
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: 12px; /* spacing between logo and title */
+  gap: 0px; /* spacing between logo and title */
+  width: 100%;
+  justify-content: center;
 }
 
 .logo {
